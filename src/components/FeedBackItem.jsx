@@ -1,17 +1,22 @@
 import { FaTimes } from 'react-icons/fa'
-import Card from './shared/Card'
 import PropTypes from 'prop-types'
+import Card from './shared/Card'
 
-function FeedbackItem( { item,handleDelete } ) {
-    
+function FeedbackItem({ item,handleDelete }) {
+
   return (
+
+
     <Card>
-        <div className="num-display">{ item.rating }</div>
-        <button onClick = {() => handleDelete(item.id)}
-          className="close">
-          <FaTimes color = 'purple'/>
+        <div className="num-display">
+            {item.rating}
+        </div>
+        <button onClick = {() => handleDelete(item.id)}className="close">
+          <FaTimes color='231942'/>
         </button>
-        <div className="text-display">{ item.text }</div>
+        <div className="text-display">
+            {item.text}
+        </div>
     </Card>
   )
 }
