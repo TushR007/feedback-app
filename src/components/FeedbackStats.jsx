@@ -1,6 +1,9 @@
-import PropTypes from 'prop-types'
+import { useContext } from 'react';
+import FeedBackContext from '../context/FeedBackContext'
 
-function FeedbackStats({ feedback }) {
+function FeedbackStats() {
+
+  const { feedback } = useContext(FeedBackContext)
 
   let avg = feedback.reduce((prev,cur) => prev + cur.rating, 0 ) / feedback.length //To calculate average
   avg = Number.isInteger(avg)? avg : avg.toFixed(1); //To round of to 1 decimal place
@@ -13,8 +16,5 @@ function FeedbackStats({ feedback }) {
   )
 }
 
-FeedbackStats.propTypes = {
-  feedback: PropTypes.array.isRequired
-}
 
 export default FeedbackStats
