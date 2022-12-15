@@ -35,7 +35,6 @@ export const FeedBackProvider = ({ children }) => {
         setFeedback(feedback.map((item) => (
              item.id === id ? updItem:item
         )))
-        console.log(feedback)
     }
 
     return <FeedBackContext.Provider value ={{
