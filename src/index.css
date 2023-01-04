@@ -303,4 +303,10 @@ input:focus {
   .input-group input {
     width: 80%;
   }
+
+  .spin {
+    margin:auto;
+    width : 100px;
+    display : block;
+  }
 }

@@ -1,0 +1,39 @@
+{
+  "feedback": [
+    {
+      "id": 1,
+      "rating": 5,
+      "text": "hello 1"
+    },
+    {
+      "id": 2,
+      "rating": 8,
+      "text": "hello 2"
+    },
+    {
+      "id": 3,
+      "rating": 10,
+      "text": "hello 3"
+    },
+    {
+      "rating": 4,
+      "text": "xxxxxxxxxxxx",
+      "id": 4
+    },
+    {
+      "rating": 5,
+      "text": "nnnnnnnnnnnnnn",
+      "id": 5
+    },
+    {
+      "rating": 9,
+      "text": "mmmmmmmmmmmmm",
+      "id": 6
+    },
+    {
+      "rating": 8,
+      "text": "bbbbbbbbbbbbbmyg",
+      "id": 7
+    }
+  ]
+}
