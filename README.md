@@ -1,3 +1,8 @@
+This project was created by focusing on the fundamentals of the React framework such as components,events,props,state,etc along with some CSS animations. As for the backend we use a JSON-Server as a mock backend. To see it for yourself please access this link:
+https://giveafeedback.netlify.app/
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
